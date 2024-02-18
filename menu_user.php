@@ -21,6 +21,11 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#" id="home">Home</a>
         </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#" id="library">Library</a>
+        </li>
+        
         <li class="nav-item">
           <a class="nav-link" href="#" id="news">News Pro</a>
         </li>
@@ -53,5 +58,10 @@
           </ul>
         </li>
       </ul>
+
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="btn-group7">
+          <button class="btn btn-custom" type="submit">Search</button>
+        </form>
 
  

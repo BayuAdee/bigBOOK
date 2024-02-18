@@ -198,7 +198,7 @@
           <div class="card">
             <img src="aset/buku10.jpg" class="card-img-top" style="max-height: 300px; min-height: 300px;" alt="Book Cover">
             <div class="card-body">
-              <h5 class="card-title truncate-text">Minset</h5>
+              <h5 class="card-title truncate-text">Mindset</h5>
               <p class="card-text truncate-text">Genre: Psychology</p>
               <p class="card-text truncate-text">Author: Carol S. Dweck -2006</p>
               <div class="button">
@@ -250,7 +250,7 @@
           <div class="card custom-card">
             <img src="aset/buku13.webp" class="card-img-top" style="max-height: 300px; min-height: 300px;" alt="Book Cover">
             <div class="card-body">
-              <h5 class="card-title truncate-text">Its Bad Or Good Habits</h5>
+              <h5 class="card-title truncate-text">Is Bad Or Good Habits</h5>
               <p class="card-text truncate-text">Genre: Self-imrofment</p>
               <p class="card-text truncate-text">Author: Sabrina Ara -2021</p>
               <div class="button">
@@ -288,11 +288,11 @@
 
         <div class="col-md-3 col-sm-4 col-6 book-group7">
           <div class="card custom-card">
-            <img src="aset/buku2.jpg" class="card-img-top" style="max-height: 300px; min-height: 300px;" alt="Book Cover">
+            <img src="aset/buku16.jpg" class="card-img-top" style="max-height: 300px; min-height: 300px;" alt="Book Cover">
             <div class="card-body">
-              <h5 class="card-title truncate-text">Atomic Habits</h5>
-              <p class="card-text truncate-text">Genre: Self-improvement, Psychology, Leadership</p>
-              <p class="card-text truncate-text">Author: James Clear - 2018</p>
+              <h5 class="card-title truncate-text">Bumi</h5>
+              <p class="card-text truncate-text">Genre: Fantasi</p>
+              <p class="card-text truncate-text">Author: Tere Liye -2014</p>
               <div class="button">
                 <a id="15" class="btn btn-success mt-2 text-white">Baca E-book <i class="fas fa-book-reader fa-lg"></i></a>
               </div>

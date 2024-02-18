@@ -1,14 +1,3 @@
-// ini tema
-$(document).ready(function () {
-  $("#tema1").click(function () {
-      $("body").removeClass("dark-mode");
-      // $("#container-group7").removeClass("dark-mode");
-  });
-  $("#tema2").click(function () {
-      $("body").addClass("dark-mode");
-      $("#container-group7").addClass("dark-mode");
-  });
-});
 
 // load
 $(document).ready(function(){
@@ -90,36 +79,39 @@ $(document).ready(function() {
     var buku;
    for (var i = 0; i < 5; i++) {
       if(i==0){
-        buku='pdf/Judul.pdf';
+        buku='pdf/dilan.pdf';
       }else if(i==1){
-        buku='pdf/Judul.pdf';
+        buku='pdf/atomic.pdf';
       }else if(i==2){
         buku='pdf/Matahari.pdf';
       }else if(i==3){
-        buku='pdf/judul.pdf';
+        buku='pdf/bodoamat.pdf';
       }else if(i==4){
         buku='pdf/Bintang.pdf';
       }else if(i==5){
-        buku='pdf/judul.pdf';
+        buku='pdf/Bulan.pdf';
       }else if(i==6){
         buku='pdf/Roshidere.pdf';
       }else if(i==7){
         buku='pdf/Classroom.pdf';
       }else if(i==8){
-        buku='pdf/judul.pdf';
+        buku='pdf/Mindset.pdf';
       }else if(i==9){
-        buku='pdf/judul.pdf';
+        buku='pdf/Selena.pdf';
       }else if(i==10){
-        buku='pdf/judul.pdf';
+        buku='pdf/Money.pdf';
       }else if(i==11){
-        buku='pdf/judul.pdf';
+        buku='pdf/Hujan.pdf';
       }else if(i==12){
-        buku='pdf/judul.pdf';
+        buku='pdf/kebiasaan.pdf';
       }else if(i==13){
-        buku='pdf/judul.pdf';
+        buku='pdf/Teras.pdf';
       }else if(i==14){
-        buku='pdf/judul.pdf';
+        buku='pdf/Alpha.pdf';
+      }else if(i==15){
+        buku='pdf/Bumi.pdf';
       }
+      
   $("#"+i).flipBook({
     //Layout Setting
     pdfUrl:buku,
@@ -178,4 +170,16 @@ $(document).ready(function() {
     // }
     });
    }
+});
+
+// ini tema
+$(document).ready(function () {
+  $("#tema1").click(function () {
+      $("body").removeClass("dark-mode");
+      // $("#container-group7").removeClass("dark-mode");
+  });
+  $("#tema2").click(function () {
+      $("body").addClass("dark-mode");
+      $("#container-group7").addClass("dark-mode");
+  });
 });
