@@ -1,0 +1,70 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d6d6d6;
+}
+
+#top496 {
+    padding-top: 3rem;
+}
+
+h1 {
+    color: #004225;
+}
+
+h3 {
+    color: #1cb2ee;
+}
+
+#spasi496 {
+    padding: 3rem;
+}
+
+
+#alamatForm {
+    display: none;
+}
+
+.kotak496 {
+    border-radius: 10px;
+    border: solid #e69e1a 5px;
+    background-color: #e69e1a;
+}
+
+#kontak496 {
+    padding-top: 3rem;
+}
+
+#klik496 {
+    background-color: #1cb2ee;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+}
+
+#klik496:hover {
+    background-color: #004225;
+}
+
+#pesan496 {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+#kirim496 {
+    background-color: #1cb2ee;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#kirim496:hover {
+    background-color: #004225;
+}
+
+#hasil496 {
+    margin-top: 10px;
+}

@@ -1,0 +1,37 @@
+.card {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* pengaturan responsif */
+@media screen and (max-width: 768px) {
+    .card {
+        width: 90%;
+        margin: 50px auto;
+    }
+}
+
+.card-header {
+    text-align: center;
+    background-color: #ad974f;
+    color: aliceblue;
+}
+
+#btnlogin {
+    margin-top: 15px;
+    color: #8e793e;
+    background-color: #eaeaea;
+    border-color: #ad974f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#btnlogin:hover {
+    color: #ffffff;
+    background-color: #ad974f;
+    border-color: #ad974f;
+}

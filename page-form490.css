@@ -1,0 +1,57 @@
+.pendaftaran_490 {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.kirim490 {
+    padding: 1rem;
+    background-color: salmon;
+    cursor: pointer;
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: inline-block;
+    margin-right: 10px; /* Atur jarak antara label dan input radio */
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button.kirim490 {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+table {
+    margin-top: 20px;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}

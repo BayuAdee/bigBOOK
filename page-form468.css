@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #6f6f58;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.pendaftaran {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 40%;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 5px;
+    margin: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4caf50;
+    color: white;
+}
+
+#changeableElement {
+    padding: 20px;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+  }
+  
+/* Styling for the buttons */
+buttonWarna {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  align-items: center;
+}

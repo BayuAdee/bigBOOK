@@ -1,0 +1,201 @@
+body {
+  transition: background-color 0.5s ease;
+}
+
+#container-group7 {
+  background-color: #eed04c;
+  color: #231f20;
+}
+body.dark-mode #container-group7 {
+  background-color: #162b41;
+  color: #eed04c;
+}
+
+/* tema */
+body.dark-mode {
+  background-color: #2c3e50;
+  color: #ecf0f1;
+}
+
+/* Custom Styles untuk Tombol Pencarian */
+ .btn-custom {
+  color: #8e793e; 
+  background-color: #eaeaea; 
+  border-color: #ad974f;
+}
+  
+.btn-custom:hover {
+  color: #ffffff; 
+  background-color: #ad974f; 
+  border-color: #ad974f; 
+}
+
+ .dis-group7 img {
+  width: 100%;
+  height: auto;
+  object-fit: scale-down;
+}
+      /* punya library */
+
+ .book-group7 {
+  height: 100%;
+}
+  
+ .book-group7 .card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+  
+ .book-group7 .card-body {
+  flex-grow: 1;
+}
+  
+ .book-group7 .card img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+  
+ .truncate-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+#judul {
+  padding: 1rem;
+  margin-left: 2rem;
+}
+
+#bsvg-group7 {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.inner-group7 {
+  max-height: 400px;
+}
+
+ .col-md-2,
+ .col-sm-3,
+ .col-6 {
+  padding-top: 1rem;
+}
+
+ #buku-group7 {
+  width: 100px;
+  height: 100px;
+}
+
+ #footer-group7 {
+  background-color: #ad974f;
+  text-align: center;
+  padding: 20px;
+  bottom: 0;
+  width: 100%;
+}
+
+ footer {
+  color: #f4f4f4;
+}
+
+/* punya news */
+
+.carousel-inner-news-group7 {
+  text-align: center;
+}
+
+.book-news-group7 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.news-book-group7 {
+  text-align: left;
+  max-width: 400px;
+}
+
+/* punya home */
+
+#body-home {
+  background-image: url('aset/home.jpg');
+  background-size: cover; 
+  background-position: center; 
+  height: 100vh; 
+  margin: 0;
+  padding: 0; 
+}
+.container-home-group7 {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header-home-group7 {
+  text-align: center;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.description-home-group7 {
+  text-align: center;
+  color: #777;
+  margin-bottom: 3rem;
+}
+
+.features-home-group7 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.feature-home-group7 {
+  flex-basis: calc(33.333% - 2rem);
+  margin: 1rem;
+  text-align: center;
+  background-color: #f4f4f4;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.feature-icon-home-group7 {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 1rem;
+}
+
+.feature-title-home-group7 {
+  color: #444;
+  margin-bottom: 0.5rem;
+}
+
+.feature-description-home-group7 {
+  color: #777;
+  margin-bottom: 1.5rem;
+}
+
+
+.custom-card {
+  width: 100%;
+  max-width: 500px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.custom-card img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
