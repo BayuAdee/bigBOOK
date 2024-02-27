@@ -77,7 +77,7 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     var buku;
-   for (var i = 0; i < 5; i++) {
+   for (var i = 0; i < 15; i++) {
       if(i==0){
         buku='pdf/dilan.pdf';
       }else if(i==1){
@@ -91,7 +91,7 @@ $(document).ready(function() {
       }else if(i==5){
         buku='pdf/Bulan.pdf';
       }else if(i==6){
-        buku='pdf/Roshidere.pdf';
+        buku='pdf/6.pdf';
       }else if(i==7){
         buku='pdf/Classroom.pdf';
       }else if(i==8){
@@ -105,14 +105,13 @@ $(document).ready(function() {
       }else if(i==12){
         buku='pdf/kebiasaan.pdf';
       }else if(i==13){
-        buku='pdf/Teras.pdf';
+        buku='pdf/teras.pdf';
       }else if(i==14){
         buku='pdf/Alpha.pdf';
       }else if(i==15){
         buku='pdf/Bumi.pdf';
       }
-      
-  $("#"+i).flipBook({
+    $( "#" + i ).flipBook({
     //Layout Setting
     pdfUrl:buku,
     lightBox:true,

@@ -40,8 +40,8 @@
             Ganti Tema
           </a>
           <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#" id="tema1">Thema 1</a></li>
-            <li><a class="dropdown-item" href="#" id="tema2">Thema2</a></li>
+            <li><a class="dropdown-item" href="#" id="tema1">Light</a></li>
+            <li><a class="dropdown-item" href="#" id="tema2">dark</a></li>
             <!-- <li><a class="dropdown-item" href="#" id="form2">Kunjungan</a></li> -->
            
           </ul>
@@ -61,7 +61,7 @@
 
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="btn-group7">
-          <button class="btn btn-custom" type="submit">Search</button>
+          <!-- <button class="btn btn-custom" type="submit">Search</button> -->
         </form>
-
+        <script src="group7.js"></script>
  

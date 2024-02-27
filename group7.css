@@ -17,8 +17,19 @@ body.dark-mode {
   color: #ecf0f1;
 }
 
+
+.navbar-toggler {
+  color: rgb(247, 104, 22);
+  border-color: #eaeaea;
+}
+
+.navbar-toggler-icon {
+  color: rgb(255, 81, 0);
+  border-color: #eaeaea;
+}
+
 /* Custom Styles untuk Tombol Pencarian */
- .btn-custom {
+ /* .btn-custom {
   color: #8e793e; 
   background-color: #eaeaea; 
   border-color: #ad974f;
@@ -28,7 +39,7 @@ body.dark-mode {
   color: #ffffff; 
   background-color: #ad974f; 
   border-color: #ad974f; 
-}
+} */
 
  .dis-group7 img {
   width: 100%;

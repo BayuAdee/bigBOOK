@@ -1,4 +1,44 @@
-.pendaftaran_490 {
+.card {
+    width: 50%;
+    margin: 50px auto;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* pengaturan responsif */
+@media screen and (max-width: 768px) {
+    .card {
+        width: 90%;
+        margin: 50px auto;
+    }
+}
+
+.card-header {
+    text-align: center;
+    background-color: #ad974f;
+    color: aliceblue;
+}
+
+#kirim490 {
+    margin-top: 15px;
+    margin-left: 35%;
+    margin-right: 35%;
+    color: #8e793e;
+    background-color: #eaeaea;
+    border-color: #ad974f;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#kirim490:hover {
+    color: #ffffff;
+    background-color: #ad974f;
+    border-color: #ad974f;
+}
+
+/* .pendaftaran_490 {
     width: 60%;
     margin: 50px auto;
     padding: 20px;
@@ -24,7 +64,7 @@ form {
 
 label {
     display: inline-block;
-    margin-right: 10px; /* Atur jarak antara label dan input radio */
+    margin-right: 10px; Atur jarak antara label dan input radio
 }
 
 input {
@@ -54,4 +94,4 @@ th, td {
 th {
     background-color: #4caf50;
     color: white;
-}
+} */

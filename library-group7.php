@@ -1,20 +1,17 @@
 <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-<!-- costume css -->
-<link rel="stylesheet" href="group7.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/dark-mode.css"> -->
-<link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
-<link rel="stylesheet" type="text/css" href="css/footer.css">
-<script src="jquery.js"></script>
-<script src="js/flipbook.min.js"></script>
-<!-- Bootstrap Css -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-rbs5mQ8iFm8KjkewtjUpwW1xgfcqfFqgIRz7Udx8M8fxi0pC2iJTJ5z9WrZ3U2S" crossorigin="anonymous">
-<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-rbs5mQ8iFm8KjkewtjUpwW1xgfcqfFqgIRz7Udx8M8fxi0pC2iJTJ5z9WrZ3U2S" crossorigin="anonymous">
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-<link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-<!-- tambahan -->
-<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <!-- costume css -->
+  <link rel="stylesheet" href="group7.css">
+  <link rel="stylesheet" type="text/css" href="css/flipbook.style.css">
+  <link rel="stylesheet" type="text/css" href="css/footer.css">
+  <script src="jquery.js"></script>
+  <script src="js/flipbook.min.js"></script>
+  <!-- Bootstrap Css -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  
+
 <body>
 <!-- library -->
 <div class="container">
@@ -216,11 +213,11 @@
     </div>
     <div class="col-md-3 col-sm-4 col-6 book-group7">
       <div class="card custom-card">
-        <img src="aset/buku2.jpg" class="card-img-top" style="max-height: 300px; min-height: 300px;" alt="Book Cover">
+        <img src="aset/buku16.jpg" class="card-img-top" style="max-height: 300px; min-height: 300px;" alt="Book Cover">
         <div class="card-body">
-          <h5 class="card-title truncate-text">Atomic Habits</h5>
-          <p class="card-text truncate-text">Genre: Self-improvement, Psychology, Leadership</p>
-          <p class="card-text truncate-text">Author: James Clear - 2018</p>
+          <h5 class="card-title truncate-text">Bumi</h5>
+          <p class="card-text truncate-text">Genre: Fantasi</p>
+          <p class="card-text truncate-text">Author: Tere Liye -2014</p>
           <div class="button">
             <a id="15" class="btn btn-success mt-2 text-white">Baca E-book <i class="fas fa-book-reader fa-lg"></i></a>
           </div>
@@ -233,4 +230,4 @@
 <script src="group7.js"></script>
 <!-- <script src="popper.min.js"></script> -->
 <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-Aj02eR7YO3+7pJjr9C12ZL5n8w3vSWlRZgqYl5GOgF9l2VY8ZOE4YsYlY3I5OeC" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-Aj02eR7YO3+7pJjr9C12ZL5n8w3vSWlRZgqYl5GOgF9l2VY8ZOE4YsYlY3I5OeC" crossorigin="anonymous"></script> -->
